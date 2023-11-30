@@ -1,0 +1,9 @@
+# /etc/systemd/system/media-nfs.automount
+[Unit]
+Description=Automount nfs
+
+[Automount]
+Where=/media/nfs
+
+[Install]
+WantedBy=multi-user.target

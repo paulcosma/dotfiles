@@ -1,0 +1,10 @@
+[user]
+	email = paulcosma@gmail.com
+	name = Paul Cosma
+[pull]
+	rebase = true
+[core]
+	editor = vim
+[pager]
+	branch = false
+	tag = false

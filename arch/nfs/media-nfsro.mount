@@ -1,0 +1,14 @@
+# /etc/systemd/system/media-nfsro.mount
+Unit]
+Description=Mount data at boot
+After=network.target
+
+[Mount]
+What=<get_data_from_vault>:/data
+Where=/media/nfsro
+Options=vers=4,_netdev,auto,ro
+Type=nfs
+TimeoutSec=30
+
+[Install]
+WantedBy=multi-user.target

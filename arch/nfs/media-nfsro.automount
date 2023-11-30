@@ -1,0 +1,9 @@
+# /etc/systemd/system/media-nfsro.automount
+[Unit]
+Description=Automount nfs Read Only
+
+[Automount]
+Where=/media/nfsro
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,14 @@
+# /etc/systemd/system/media-nfs.mount
+Unit]
+Description=Mount data at boot
+After=network.target
+
+[Mount]
+What=<get_data_from_vault>:/data
+Where=/media/nfs
+Options=vers=4,_netdev,auto
+Type=nfs
+TimeoutSec=30
+
+[Install]
+WantedBy=multi-user.target
