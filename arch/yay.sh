@@ -11,4 +11,6 @@ sublime-text-4 \
 teams-for-linux \
 thunderbird \
 zoom \
-ferdium-bin
+ferdium-bin \
+czkawka-gui-bin
+
