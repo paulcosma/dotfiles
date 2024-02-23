@@ -12,6 +12,4 @@ teams-for-linux \
 thunderbird \
 zoom \
 ferdium-bin \
-czkawka-gui-bin \
 dupeguru
-
