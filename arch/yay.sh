@@ -12,4 +12,5 @@ teams-for-linux \
 thunderbird \
 zoom \
 ferdium-bin \
-dupeguru
+dupeguru \
+--cleanafter
