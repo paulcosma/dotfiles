@@ -11,6 +11,7 @@ kcalc \
 kubectl \
 remmina \
 freerdp \
+flameshot \
 libreoffice-fresh \
 mcfly \
 meld \
