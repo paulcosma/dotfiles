@@ -2,6 +2,7 @@ sudo pacman --noconfirm -S \
 alacritty \
 code \
 doublecmd-qt5 \
+dnsutils \
 helm \
 intellij-idea-community-edition \
 kdeconnect \
