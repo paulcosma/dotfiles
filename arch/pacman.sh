@@ -11,8 +11,9 @@ krita \
 kcalc \
 kubectl \
 remmina \
-freerdp \
+firefox firefox-developer-edition \
 flameshot \
+freerdp \
 libreoffice-fresh \
 mcfly \
 meld \
@@ -21,14 +22,16 @@ nfs-utils \
 obs-studio \
 pulseaudio pulseaudio-bluetooth \
 python-pip \
-tmux \
 tldr \
+tmux \
+thunderbird \
+vlc \
 wl-clipboard \
 zsh zsh-completions
 
 # Photos
 sudo pacman --noconfirm -S \
-gthumb ffmpegthumbnailer ffmpegthumbs gst-plugins-ugly gst-libav
+gthumb ffmpegthumbnailer ffmpegthumbs gst-plugins-ugly gst-libav webp-pixbuf-loader
 # gwenview dolphin ffmpegthumbs
 # flameshot xdg-desktop-portal xdg-desktop-portal-wlr grim
 

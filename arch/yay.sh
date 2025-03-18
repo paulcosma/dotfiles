@@ -4,12 +4,9 @@ yay --save --nocleanmenu --nodiffmenu
 
 yay -S \
 clipit \
-firefox firefox-developer-edition \
 google-chrome \
-skypeforlinux-stable-bin \
 sublime-text-4 \
 teams-for-linux \
-thunderbird \
 zoom \
 ferdium-bin \
 dupeguru \
