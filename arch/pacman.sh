@@ -1,7 +1,6 @@
 sudo pacman --noconfirm -S \
 alacritty \
 code \
-cursor-bin \
 doublecmd-qt5 \
 dnsutils \
 helm \
