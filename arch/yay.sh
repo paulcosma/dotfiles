@@ -3,7 +3,6 @@ yay --save --answerclean All --answerdiff Al
 yay --save --nodiffmenu
 
 yay -S \
-clipit \
 cursor-bin \
 google-chrome \
 sublime-text-4 \
