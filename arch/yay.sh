@@ -10,4 +10,5 @@ teams-for-linux \
 zoom \
 dupeguru \
 outlook-for-linux-bin \
+lens-bin \
 --cleanafter
