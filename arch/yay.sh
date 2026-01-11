@@ -11,4 +11,5 @@ zoom \
 dupeguru \
 outlook-for-linux-bin \
 lens-bin \
+visual-studio-code-bin \
 --cleanafter
