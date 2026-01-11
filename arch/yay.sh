@@ -8,6 +8,6 @@ google-chrome \
 sublime-text-4 \
 teams-for-linux \
 zoom \
-ferdium-bin \
 dupeguru \
+outlook-for-linux-bin \
 --cleanafter
