@@ -37,5 +37,18 @@ gthumb ffmpegthumbnailer ffmpegthumbs gst-plugins-ugly gst-libav webp-pixbuf-loa
 # Change Shell to ZSH
 chsh -s /usr/bin/zsh
 
-# Deprecated
-# pipewire wireplumber pipewire-pulse pipewire-audio \ # using pulseaudio for now
+# Pipewire setup
+sudo pacman -S \
+  pipewire \
+  pipewire-pulse \
+  pipewire-audio \
+  pipewire-alsa \
+  pipewire-jack \
+  wireplumber \
+  bluez \
+  bluez-utils
+sudo systemctl enable --now bluetooth.service
+systemctl --user enable --now pipewire.socket
+systemctl --user enable --now pipewire-pulse.socket
+systemctl --user enable --now wireplumber.service
+pactl info | grep "Server Name"
