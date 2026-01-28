@@ -4,7 +4,7 @@
 [pull]
 	rebase = true
 [core]
-	editor = vim
+	editor = vi
 [pager]
 	branch = false
 	tag = false
