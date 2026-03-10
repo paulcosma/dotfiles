@@ -25,6 +25,7 @@ tldr \
 tmux \
 thunderbird \
 vlc \
+vlc-plugins-all \
 wl-clipboard \
 zsh zsh-completions
 
