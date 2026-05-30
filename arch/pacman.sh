@@ -9,6 +9,7 @@ kmag \
 krita \
 kcalc \
 kubectl \
+kwalletmanager \
 remmina \
 firefox firefox-developer-edition \
 flameshot \

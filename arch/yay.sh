@@ -4,12 +4,12 @@ yay --save --nodiffmenu
 
 yay -S \
 cursor-bin \
+dupeguru \
 google-chrome \
+lens-bin \
+outlook-for-linux-bin \
 sublime-text-4 \
 teams-for-linux \
-zoom \
-dupeguru \
-outlook-for-linux-bin \
-lens-bin \
 visual-studio-code-bin \
+zoom \
 --cleanafter
